@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5FBBBAE51F72401B00C03813 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FBBBAE41F72401B00C03813 /* main.m */; };
+		5FBBBAE81F72401B00C03813 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FBBBAE71F72401B00C03813 /* AppDelegate.m */; };
+		5FBBBAEE1F72401B00C03813 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FBBBAEC1F72401B00C03813 /* Main.storyboard */; };
+		5FBBBAF11F72401B00C03813 /* TatabApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5FBBBAEF1F72401B00C03813 /* TatabApp.xcdatamodeld */; };
+		5FBBBAF31F72401B00C03813 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FBBBAF21F72401B00C03813 /* Assets.xcassets */; };
+		5FBBBAF61F72401B00C03813 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FBBBAF41F72401B00C03813 /* LaunchScreen.storyboard */; };
+		5FBBBB011F72401C00C03813 /* TatabAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FBBBB001F72401C00C03813 /* TatabAppTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5FBBBAFD1F72401C00C03813 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5FBBBAD81F72401B00C03813 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5FBBBADF1F72401B00C03813;
+			remoteInfo = TatabApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5FBBBAE01F72401B00C03813 /* TatabApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TatabApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FBBBAE41F72401B00C03813 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5FBBBAE61F72401B00C03813 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5FBBBAE71F72401B00C03813 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5FBBBAED1F72401B00C03813 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5FBBBAF01F72401B00C03813 /* TatabApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TatabApp.xcdatamodel; sourceTree = "<group>"; };
+		5FBBBAF21F72401B00C03813 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5FBBBAF51F72401B00C03813 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5FBBBAF71F72401B00C03813 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FBBBAFC1F72401C00C03813 /* TatabAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TatabAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FBBBB001F72401C00C03813 /* TatabAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TatabAppTests.m; sourceTree = "<group>"; };
+		5FBBBB021F72401C00C03813 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5FBBBADD1F72401B00C03813 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FBBBAF91F72401C00C03813 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5FBBBAD71F72401B00C03813 = {
+			isa = PBXGroup;
+			children = (
+				5FBBBAE21F72401B00C03813 /* TatabApp */,
+				5FBBBAFF1F72401C00C03813 /* TatabAppTests */,
+				5FBBBAE11F72401B00C03813 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5FBBBAE11F72401B00C03813 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5FBBBAE01F72401B00C03813 /* TatabApp.app */,
+				5FBBBAFC1F72401C00C03813 /* TatabAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5FBBBAE21F72401B00C03813 /* TatabApp */ = {
+			isa = PBXGroup;
+			children = (
+				5FBBBAE61F72401B00C03813 /* AppDelegate.h */,
+				5FBBBAE71F72401B00C03813 /* AppDelegate.m */,
+				5FBBBAEC1F72401B00C03813 /* Main.storyboard */,
+				5FBBBAF21F72401B00C03813 /* Assets.xcassets */,
+				5FBBBAF41F72401B00C03813 /* LaunchScreen.storyboard */,
+				5FBBBAF71F72401B00C03813 /* Info.plist */,
+				5FBBBAEF1F72401B00C03813 /* TatabApp.xcdatamodeld */,
+				5FBBBAE31F72401B00C03813 /* Supporting Files */,
+			);
+			path = TatabApp;
+			sourceTree = "<group>";
+		};
+		5FBBBAE31F72401B00C03813 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5FBBBAE41F72401B00C03813 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5FBBBAFF1F72401C00C03813 /* TatabAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				5FBBBB001F72401C00C03813 /* TatabAppTests.m */,
+				5FBBBB021F72401C00C03813 /* Info.plist */,
+			);
+			path = TatabAppTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5FBBBADF1F72401B00C03813 /* TatabApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FBBBB051F72401C00C03813 /* Build configuration list for PBXNativeTarget "TatabApp" */;
+			buildPhases = (
+				5FBBBADC1F72401B00C03813 /* Sources */,
+				5FBBBADD1F72401B00C03813 /* Frameworks */,
+				5FBBBADE1F72401B00C03813 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TatabApp;
+			productName = TatabApp;
+			productReference = 5FBBBAE01F72401B00C03813 /* TatabApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5FBBBAFB1F72401C00C03813 /* TatabAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FBBBB081F72401C00C03813 /* Build configuration list for PBXNativeTarget "TatabAppTests" */;
+			buildPhases = (
+				5FBBBAF81F72401C00C03813 /* Sources */,
+				5FBBBAF91F72401C00C03813 /* Frameworks */,
+				5FBBBAFA1F72401C00C03813 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5FBBBAFE1F72401C00C03813 /* PBXTargetDependency */,
+			);
+			name = TatabAppTests;
+			productName = TatabAppTests;
+			productReference = 5FBBBAFC1F72401C00C03813 /* TatabAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5FBBBAD81F72401B00C03813 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Shagun Verma";
+				TargetAttributes = {
+					5FBBBADF1F72401B00C03813 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = MK5HXMKD83;
+						ProvisioningStyle = Automatic;
+					};
+					5FBBBAFB1F72401C00C03813 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5FBBBADF1F72401B00C03813;
+					};
+				};
+			};
+			buildConfigurationList = 5FBBBADB1F72401B00C03813 /* Build configuration list for PBXProject "TatabApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5FBBBAD71F72401B00C03813;
+			productRefGroup = 5FBBBAE11F72401B00C03813 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5FBBBADF1F72401B00C03813 /* TatabApp */,
+				5FBBBAFB1F72401C00C03813 /* TatabAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5FBBBADE1F72401B00C03813 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FBBBAF61F72401B00C03813 /* LaunchScreen.storyboard in Resources */,
+				5FBBBAF31F72401B00C03813 /* Assets.xcassets in Resources */,
+				5FBBBAEE1F72401B00C03813 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FBBBAFA1F72401C00C03813 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5FBBBADC1F72401B00C03813 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FBBBAE81F72401B00C03813 /* AppDelegate.m in Sources */,
+				5FBBBAF11F72401B00C03813 /* TatabApp.xcdatamodeld in Sources */,
+				5FBBBAE51F72401B00C03813 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FBBBAF81F72401C00C03813 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FBBBB011F72401C00C03813 /* TatabAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5FBBBAFE1F72401C00C03813 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5FBBBADF1F72401B00C03813 /* TatabApp */;
+			targetProxy = 5FBBBAFD1F72401C00C03813 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5FBBBAEC1F72401B00C03813 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5FBBBAED1F72401B00C03813 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5FBBBAF41F72401B00C03813 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5FBBBAF51F72401B00C03813 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5FBBBB031F72401C00C03813 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5FBBBB041F72401C00C03813 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5FBBBB061F72401C00C03813 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MK5HXMKD83;
+				INFOPLIST_FILE = TatabApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.npglobal.SSCreative;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5FBBBB071F72401C00C03813 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MK5HXMKD83;
+				INFOPLIST_FILE = TatabApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.npglobal.SSCreative;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5FBBBB091F72401C00C03813 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TatabAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cbcbc.SSCreative.TatabAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TatabApp.app/TatabApp";
+			};
+			name = Debug;
+		};
+		5FBBBB0A1F72401C00C03813 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TatabAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cbcbc.SSCreative.TatabAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TatabApp.app/TatabApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5FBBBADB1F72401B00C03813 /* Build configuration list for PBXProject "TatabApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FBBBB031F72401C00C03813 /* Debug */,
+				5FBBBB041F72401C00C03813 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FBBBB051F72401C00C03813 /* Build configuration list for PBXNativeTarget "TatabApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FBBBB061F72401C00C03813 /* Debug */,
+				5FBBBB071F72401C00C03813 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5FBBBB081F72401C00C03813 /* Build configuration list for PBXNativeTarget "TatabAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FBBBB091F72401C00C03813 /* Debug */,
+				5FBBBB0A1F72401C00C03813 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5FBBBAEF1F72401B00C03813 /* TatabApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5FBBBAF01F72401B00C03813 /* TatabApp.xcdatamodel */,
+			);
+			currentVersion = 5FBBBAF01F72401B00C03813 /* TatabApp.xcdatamodel */;
+			path = TatabApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5FBBBAD81F72401B00C03813 /* Project object */;
+}
