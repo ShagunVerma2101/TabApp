@@ -14,6 +14,8 @@
 		5FBBBAF31F72401B00C03813 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FBBBAF21F72401B00C03813 /* Assets.xcassets */; };
 		5FBBBAF61F72401B00C03813 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FBBBAF41F72401B00C03813 /* LaunchScreen.storyboard */; };
 		5FBBBB011F72401C00C03813 /* TatabAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FBBBB001F72401C00C03813 /* TatabAppTests.m */; };
+		80D4162ADB3F166D1F5DC3F4 /* libPods-TatabAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D387D74185D905643A1858BE /* libPods-TatabAppTests.a */; };
+		F3D93D20790BF946480A45A1 /* libPods-TatabApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D816EB267D58E1A20A223E17 /* libPods-TatabApp.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B7243BFA15CEF2681A99446 /* Pods-TatabAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TatabAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TatabAppTests/Pods-TatabAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4E254AF616877AABF7CAB560 /* Pods-TatabAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TatabAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TatabAppTests/Pods-TatabAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		5FBBBAE01F72401B00C03813 /* TatabApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TatabApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FBBBAE41F72401B00C03813 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5FBBBAE61F72401B00C03813 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -39,6 +43,10 @@
 		5FBBBAFC1F72401C00C03813 /* TatabAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TatabAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FBBBB001F72401C00C03813 /* TatabAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TatabAppTests.m; sourceTree = "<group>"; };
 		5FBBBB021F72401C00C03813 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBB844014A999876E3EEA5CD /* Pods-TatabApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TatabApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-TatabApp/Pods-TatabApp.release.xcconfig"; sourceTree = "<group>"; };
+		D387D74185D905643A1858BE /* libPods-TatabAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TatabAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D816EB267D58E1A20A223E17 /* libPods-TatabApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TatabApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC3D829D93651C6DE55E17FC /* Pods-TatabApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TatabApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TatabApp/Pods-TatabApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3D93D20790BF946480A45A1 /* libPods-TatabApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,18 +62,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80D4162ADB3F166D1F5DC3F4 /* libPods-TatabAppTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E3F1CF84A9E09301F040515 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EC3D829D93651C6DE55E17FC /* Pods-TatabApp.debug.xcconfig */,
+				BBB844014A999876E3EEA5CD /* Pods-TatabApp.release.xcconfig */,
+				0B7243BFA15CEF2681A99446 /* Pods-TatabAppTests.debug.xcconfig */,
+				4E254AF616877AABF7CAB560 /* Pods-TatabAppTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		51EF22DD57B504A66E6CB433 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D816EB267D58E1A20A223E17 /* libPods-TatabApp.a */,
+				D387D74185D905643A1858BE /* libPods-TatabAppTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5FBBBAD71F72401B00C03813 = {
 			isa = PBXGroup;
 			children = (
 				5FBBBAE21F72401B00C03813 /* TatabApp */,
 				5FBBBAFF1F72401C00C03813 /* TatabAppTests */,
 				5FBBBAE11F72401B00C03813 /* Products */,
+				1E3F1CF84A9E09301F040515 /* Pods */,
+				51EF22DD57B504A66E6CB433 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -80,6 +112,11 @@
 		5FBBBAE21F72401B00C03813 /* TatabApp */ = {
 			isa = PBXGroup;
 			children = (
+				5FBBBB0B1F726FC400C03813 /* CommonFiles */,
+				5FBBBB0C1F726FC400C03813 /* Libraries */,
+				5FBBBB0D1F726FC400C03813 /* Models */,
+				5FBBBB0E1F726FC400C03813 /* Resources */,
+				5FBBBB111F726FC400C03813 /* ViewControllers */,
 				5FBBBAE61F72401B00C03813 /* AppDelegate.h */,
 				5FBBBAE71F72401B00C03813 /* AppDelegate.m */,
 				5FBBBAEC1F72401B00C03813 /* Main.storyboard */,
@@ -109,6 +146,97 @@
 			path = TatabAppTests;
 			sourceTree = "<group>";
 		};
+		5FBBBB0B1F726FC400C03813 /* CommonFiles */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CommonFiles;
+			sourceTree = "<group>";
+		};
+		5FBBBB0C1F726FC400C03813 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		5FBBBB0D1F726FC400C03813 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5FBBBB0E1F726FC400C03813 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5FBBBB0F1F726FC400C03813 /* Documents */,
+				5FBBBB101F726FC400C03813 /* Images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5FBBBB0F1F726FC400C03813 /* Documents */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Documents;
+			sourceTree = "<group>";
+		};
+		5FBBBB101F726FC400C03813 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		5FBBBB111F726FC400C03813 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				5FBBBB121F726FC400C03813 /* HomeViewController */,
+				5FBBBB131F726FC400C03813 /* LoginViewController */,
+				5FBBBB141F726FC400C03813 /* RegisterViewController */,
+				5FBBBB151F726FC400C03813 /* SplashScreenViewController */,
+				5FBBBB161F726FC400C03813 /* UserSelectViewController */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		5FBBBB121F726FC400C03813 /* HomeViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = HomeViewController;
+			sourceTree = "<group>";
+		};
+		5FBBBB131F726FC400C03813 /* LoginViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LoginViewController;
+			sourceTree = "<group>";
+		};
+		5FBBBB141F726FC400C03813 /* RegisterViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = RegisterViewController;
+			sourceTree = "<group>";
+		};
+		5FBBBB151F726FC400C03813 /* SplashScreenViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SplashScreenViewController;
+			sourceTree = "<group>";
+		};
+		5FBBBB161F726FC400C03813 /* UserSelectViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UserSelectViewController;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -116,9 +244,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5FBBBB051F72401C00C03813 /* Build configuration list for PBXNativeTarget "TatabApp" */;
 			buildPhases = (
+				4CD4B612EA43EAFEA3FF8B37 /* [CP] Check Pods Manifest.lock */,
 				5FBBBADC1F72401B00C03813 /* Sources */,
 				5FBBBADD1F72401B00C03813 /* Frameworks */,
 				5FBBBADE1F72401B00C03813 /* Resources */,
+				4C10FB05A424CF928864FE76 /* [CP] Embed Pods Frameworks */,
+				5A1300C582EA6F262BF4A9CA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -133,9 +264,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5FBBBB081F72401C00C03813 /* Build configuration list for PBXNativeTarget "TatabAppTests" */;
 			buildPhases = (
+				E58598FF21E4C645EA4CAEE6 /* [CP] Check Pods Manifest.lock */,
 				5FBBBAF81F72401C00C03813 /* Sources */,
 				5FBBBAF91F72401C00C03813 /* Frameworks */,
 				5FBBBAFA1F72401C00C03813 /* Resources */,
+				9E922D34F5803162449E905D /* [CP] Embed Pods Frameworks */,
+				E288F9550D7991FFB04D83B5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -206,6 +340,105 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4C10FB05A424CF928864FE76 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TatabApp/Pods-TatabApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4CD4B612EA43EAFEA3FF8B37 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TatabApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A1300C582EA6F262BF4A9CA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TatabApp/Pods-TatabApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E922D34F5803162449E905D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TatabAppTests/Pods-TatabAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E288F9550D7991FFB04D83B5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TatabAppTests/Pods-TatabAppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E58598FF21E4C645EA4CAEE6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TatabAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5FBBBADC1F72401B00C03813 /* Sources */ = {
@@ -346,6 +579,7 @@
 		};
 		5FBBBB061F72401C00C03813 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC3D829D93651C6DE55E17FC /* Pods-TatabApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = MK5HXMKD83;
@@ -358,6 +592,7 @@
 		};
 		5FBBBB071F72401C00C03813 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBB844014A999876E3EEA5CD /* Pods-TatabApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = MK5HXMKD83;
@@ -370,6 +605,7 @@
 		};
 		5FBBBB091F72401C00C03813 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B7243BFA15CEF2681A99446 /* Pods-TatabAppTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = TatabAppTests/Info.plist;
@@ -382,6 +618,7 @@
 		};
 		5FBBBB0A1F72401C00C03813 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E254AF616877AABF7CAB560 /* Pods-TatabAppTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = TatabAppTests/Info.plist;
@@ -411,6 +648,7 @@
 				5FBBBB071F72401C00C03813 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5FBBBB081F72401C00C03813 /* Build configuration list for PBXNativeTarget "TatabAppTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +657,7 @@
 				5FBBBB0A1F72401C00C03813 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
