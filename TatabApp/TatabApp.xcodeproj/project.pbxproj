@@ -14,6 +14,8 @@
 		5FBBBAF31F72401B00C03813 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FBBBAF21F72401B00C03813 /* Assets.xcassets */; };
 		5FBBBAF61F72401B00C03813 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FBBBAF41F72401B00C03813 /* LaunchScreen.storyboard */; };
 		5FBBBB011F72401C00C03813 /* TatabAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FBBBB001F72401C00C03813 /* TatabAppTests.m */; };
+		5FBBBB1A1F72720800C03813 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FBBBB181F72720800C03813 /* LoginViewController.m */; };
+		5FBBBB1B1F72720800C03813 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5FBBBB191F72720800C03813 /* LoginViewController.xib */; };
 		80D4162ADB3F166D1F5DC3F4 /* libPods-TatabAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D387D74185D905643A1858BE /* libPods-TatabAppTests.a */; };
 		F3D93D20790BF946480A45A1 /* libPods-TatabApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D816EB267D58E1A20A223E17 /* libPods-TatabApp.a */; };
 /* End PBXBuildFile section */
@@ -43,6 +45,9 @@
 		5FBBBAFC1F72401C00C03813 /* TatabAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TatabAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FBBBB001F72401C00C03813 /* TatabAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TatabAppTests.m; sourceTree = "<group>"; };
 		5FBBBB021F72401C00C03813 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FBBBB171F72720800C03813 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		5FBBBB181F72720800C03813 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		5FBBBB191F72720800C03813 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
 		BBB844014A999876E3EEA5CD /* Pods-TatabApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TatabApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-TatabApp/Pods-TatabApp.release.xcconfig"; sourceTree = "<group>"; };
 		D387D74185D905643A1858BE /* libPods-TatabAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TatabAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D816EB267D58E1A20A223E17 /* libPods-TatabApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TatabApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -212,6 +217,9 @@
 		5FBBBB131F726FC400C03813 /* LoginViewController */ = {
 			isa = PBXGroup;
 			children = (
+				5FBBBB171F72720800C03813 /* LoginViewController.h */,
+				5FBBBB181F72720800C03813 /* LoginViewController.m */,
+				5FBBBB191F72720800C03813 /* LoginViewController.xib */,
 			);
 			path = LoginViewController;
 			sourceTree = "<group>";
@@ -326,6 +334,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FBBBB1B1F72720800C03813 /* LoginViewController.xib in Resources */,
 				5FBBBAF61F72401B00C03813 /* LaunchScreen.storyboard in Resources */,
 				5FBBBAF31F72401B00C03813 /* Assets.xcassets in Resources */,
 				5FBBBAEE1F72401B00C03813 /* Main.storyboard in Resources */,
@@ -445,6 +454,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FBBBB1A1F72720800C03813 /* LoginViewController.m in Sources */,
 				5FBBBAE81F72401B00C03813 /* AppDelegate.m in Sources */,
 				5FBBBAF11F72401B00C03813 /* TatabApp.xcdatamodeld in Sources */,
 				5FBBBAE51F72401B00C03813 /* main.m in Sources */,
