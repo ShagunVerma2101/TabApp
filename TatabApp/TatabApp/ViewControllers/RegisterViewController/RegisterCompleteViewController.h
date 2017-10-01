@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface RegisterCompleteViewController : UIViewController<UITableViewDelegate,UITableViewDataSource>
-
+@interface RegisterCompleteViewController : UIViewController<UITableViewDelegate,UITableViewDataSource,UIPickerViewDelegate,UIPickerViewDataSource>
+@property(nonatomic,strong)NSString *firstNameString;
+@property(nonatomic,strong)NSString *emailString;
+@property(nonatomic,strong)NSString *passwordString;
 @end

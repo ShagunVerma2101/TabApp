@@ -9,5 +9,7 @@
 #import <Foundation/Foundation.h>
 
 @interface RegistrationDpendency : NSObject
-
+@property(nonatomic ,strong) NSString *name;
+@property(nonatomic ,strong) NSString *birthDay;
+@property(nonatomic ) BOOL isMale;
 @end

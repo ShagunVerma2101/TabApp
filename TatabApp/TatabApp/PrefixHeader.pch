@@ -22,8 +22,9 @@
 #import "RegisterViewController.h"
 #import "RegisterCompleteViewController.h"
 #import "DependantDetailTableViewCell.h"
-
-
+#import "WebServicesCall.h"
+#import "LoderView.h"
+#import "RegistrationDpendency.h"
 // Include any system framework and library headers here that should be included in all compilation units.
 // You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
 

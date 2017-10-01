@@ -44,10 +44,12 @@
 
 //Api related
 
-#define loginUsername @"userId"
+#define loginUsername @"username"
 #define loginPassword @"password"
 #define codeForActivatedAccount @"NP001"
+//Color related
 
+#define primary_Color @"00b1dd"
 
 //Url Related
 #define firstName @"firstName"
@@ -82,25 +84,21 @@
 #define CANCELED @"canceled"
 
 //testing url
+
+
 static NSString* const COLORCODE = @"#d22424";
-static NSString* const COLORCODE_FOR_TEXTFIELD = @"#D88A17";
+static NSString* const COLORCODE_FOR_TEXTFIELD = @"#00b1dd";
 
 
-//
-//static NSString* const API_Test_URL = @"http://192.168.1.118:38080/";
-//static NSString* const API_UAT_URL = @"http://uat.shreeairlines.com:38080/";
-//static NSString* const API_LIVE_URL = @"http://uat.shreeairlines.com:38080/";
-static NSString* const API_BASE_URL = @"http://uat.shreeairlines.com:38080/";
-//static NSString* const API_Temp_BASE_URL = @"http://192.168.1.118:38080/";
-//static NSString* const API_Ankit_BASE_URL = @"http://192.168.1.152:8080/;
-//static NSString* const API_Rubina_BASE_URL = @"http://192.168.1.164:8080/;
+
+static NSString* const API_BASE_URL = @"http://www.dataheadstudio.com/test/api/";
 
 static NSString* const API_SA_BASE_URL = @"sa-service/";
 static NSString* const API_USER_URL = @"np-user-service/users/";
 static NSString* const API_LOCATION_URL = @"np-location-service/locations/";
 
-static NSString* const API_REGISTER_USER_URL = @"create/AdminUser";
-static NSString* const API_LOGIN_URL = @"authenticate/AdminUser";
+static NSString* const API_REGISTER_USER_URL = @"register/";
+static NSString* const API_LOGIN_URL = @"login";
 static NSString* const API_UPDATE_USER_URL = @"update/AdminUser";
 static NSString* const API_CHANGE_PASSWORD_URL = @"manage/AdminUser";
 static NSString* const API_RESET_PASSWORD_URL = @"forgotPassword/AdminUser";
@@ -120,4 +118,6 @@ static NSString* const FAIR_POLICY_URL = @"http://shreeairlines.com/fare-policy-
 static NSString* const TERMS_POLICY_URL = @"http://shreeairlines.com/terms-and-conditions-mobile.html";
 static NSString* const PRIVACY_POLICY_URL = @"http://shreeairlines.com/privacy-policy-mobile.html";
 static NSString* const CONTACT_US_URL = @"http://shreeairlines.com/contact-us-mobile.html";
+
+
 #endif /* Constant_h */ 

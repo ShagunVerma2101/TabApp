@@ -25,7 +25,8 @@
         self.leftView = paddingView;
 
         self.backgroundColor = [CommonFunction colorWithHexString:@"#00b1dd"];
-         self.attributedPlaceholder = [[NSAttributedString alloc] initWithString:self.placeholder attributes:@{NSForegroundColorAttributeName: [CommonFunction colorWithHexString:@"4d4d4d"]}];
+         self.attributedPlaceholder = [[NSAttributedString alloc] initWithString:self.placeholder attributes:@{NSForegroundColorAttributeName: [UIColor whiteColor]}];
+        self.textColor = [UIColor whiteColor];
     }
     return self;
 }

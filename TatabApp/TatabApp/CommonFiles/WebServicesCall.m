@@ -28,8 +28,8 @@
     [requestManager.requestSerializer setValue:@"application/json" forHTTPHeaderField:@"Accept"];
     [requestManager.requestSerializer setValue:@"application/json" forHTTPHeaderField:@"Content-Type"];
     
-    [requestManager.requestSerializer setValue:basicAdded forHTTPHeaderField:@"Authorization"];
-    [requestManager.requestSerializer setValue:timeInStr forHTTPHeaderField:@"timestamp"];
+//    [requestManager.requestSerializer setValue:basicAdded forHTTPHeaderField:@"Authorization"];
+//    [requestManager.requestSerializer setValue:timeInStr forHTTPHeaderField:@"timestamp"];
         
     if (requiredAuthentication) {
 //        NSString *token = [UserDefaultUtility getDeviceToken];

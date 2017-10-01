@@ -33,6 +33,11 @@
 		5FBBBB1A1F72720800C03813 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FBBBB181F72720800C03813 /* LoginViewController.m */; };
 		5FBBBB1B1F72720800C03813 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5FBBBB191F72720800C03813 /* LoginViewController.xib */; };
 		80D4162ADB3F166D1F5DC3F4 /* libPods-TatabAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D387D74185D905643A1858BE /* libPods-TatabAppTests.a */; };
+		9C4C5ECE1F792725003D84BD /* RegistrationDpendency.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C4C5ECD1F792725003D84BD /* RegistrationDpendency.m */; };
+		D84B6BB71F777D2C00F37660 /* WebServicesCall.m in Sources */ = {isa = PBXBuildFile; fileRef = D84B6BB61F777D2C00F37660 /* WebServicesCall.m */; };
+		D84B6BBC1F77837500F37660 /* LoderView.m in Sources */ = {isa = PBXBuildFile; fileRef = D84B6BBA1F77837500F37660 /* LoderView.m */; };
+		D84B6BBD1F77837500F37660 /* LoderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D84B6BBB1F77837500F37660 /* LoderView.xib */; };
+		D84B6BBF1F78452700F37660 /* NewView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D84B6BBE1F78452700F37660 /* NewView.xib */; };
 		F3D93D20790BF946480A45A1 /* libPods-TatabApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D816EB267D58E1A20A223E17 /* libPods-TatabApp.a */; };
 /* End PBXBuildFile section */
 
@@ -92,9 +97,17 @@
 		5FBBBB171F72720800C03813 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		5FBBBB181F72720800C03813 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		5FBBBB191F72720800C03813 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		9C4C5ECC1F792725003D84BD /* RegistrationDpendency.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegistrationDpendency.h; sourceTree = "<group>"; };
+		9C4C5ECD1F792725003D84BD /* RegistrationDpendency.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegistrationDpendency.m; sourceTree = "<group>"; };
 		BBB844014A999876E3EEA5CD /* Pods-TatabApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TatabApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-TatabApp/Pods-TatabApp.release.xcconfig"; sourceTree = "<group>"; };
 		D387D74185D905643A1858BE /* libPods-TatabAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TatabAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D816EB267D58E1A20A223E17 /* libPods-TatabApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TatabApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D84B6BB51F777D2C00F37660 /* WebServicesCall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebServicesCall.h; sourceTree = "<group>"; };
+		D84B6BB61F777D2C00F37660 /* WebServicesCall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebServicesCall.m; sourceTree = "<group>"; };
+		D84B6BB91F77837500F37660 /* LoderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoderView.h; sourceTree = "<group>"; };
+		D84B6BBA1F77837500F37660 /* LoderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoderView.m; sourceTree = "<group>"; };
+		D84B6BBB1F77837500F37660 /* LoderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoderView.xib; sourceTree = "<group>"; };
+		D84B6BBE1F78452700F37660 /* NewView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewView.xib; sourceTree = "<group>"; };
 		EC3D829D93651C6DE55E17FC /* Pods-TatabApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TatabApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TatabApp/Pods-TatabApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -188,11 +201,10 @@
 		5FBBBAE21F72401B00C03813 /* TatabApp */ = {
 			isa = PBXGroup;
 			children = (
+				9C4C5ECB1F792717003D84BD /* Models */,
 				5F1E9B581F76AA62009FECDD /* TableViewCells */,
 				5FBBBB0B1F726FC400C03813 /* CommonFiles */,
 				5FBBBB0C1F726FC400C03813 /* Libraries */,
-				5FBBBB0D1F726FC400C03813 /* Models */,
-				5FBBBB0E1F726FC400C03813 /* Resources */,
 				5FBBBB111F726FC400C03813 /* ViewControllers */,
 				5FBBBAE61F72401B00C03813 /* AppDelegate.h */,
 				5FBBBAE71F72401B00C03813 /* AppDelegate.m */,
@@ -227,6 +239,9 @@
 		5FBBBB0B1F726FC400C03813 /* CommonFiles */ = {
 			isa = PBXGroup;
 			children = (
+				D84B6BB81F77837500F37660 /* Loder VIew */,
+				D84B6BB51F777D2C00F37660 /* WebServicesCall.h */,
+				D84B6BB61F777D2C00F37660 /* WebServicesCall.m */,
 				5F1E9B451F76442C009FECDD /* CommonFunction.h */,
 				5F1E9B461F76442C009FECDD /* CommonFunction.m */,
 				5F1E9B471F76442C009FECDD /* Constant.h */,
@@ -244,36 +259,6 @@
 				5F1E9B4F1F76482D009FECDD /* Reachability */,
 			);
 			path = Libraries;
-			sourceTree = "<group>";
-		};
-		5FBBBB0D1F726FC400C03813 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		5FBBBB0E1F726FC400C03813 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				5FBBBB0F1F726FC400C03813 /* Documents */,
-				5FBBBB101F726FC400C03813 /* Images */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
-		5FBBBB0F1F726FC400C03813 /* Documents */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Documents;
-			sourceTree = "<group>";
-		};
-		5FBBBB101F726FC400C03813 /* Images */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Images;
 			sourceTree = "<group>";
 		};
 		5FBBBB111F726FC400C03813 /* ViewControllers */ = {
@@ -317,6 +302,7 @@
 				5F1E9B531F76A48E009FECDD /* RegisterCompleteViewController.h */,
 				5F1E9B541F76A48E009FECDD /* RegisterCompleteViewController.m */,
 				5F1E9B551F76A48E009FECDD /* RegisterCompleteViewController.xib */,
+				D84B6BBE1F78452700F37660 /* NewView.xib */,
 			);
 			path = RegisterViewController;
 			sourceTree = "<group>";
@@ -339,6 +325,25 @@
 				5F1E9B391F763C73009FECDD /* UserSelectViewController.xib */,
 			);
 			path = UserSelectViewController;
+			sourceTree = "<group>";
+		};
+		9C4C5ECB1F792717003D84BD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9C4C5ECC1F792725003D84BD /* RegistrationDpendency.h */,
+				9C4C5ECD1F792725003D84BD /* RegistrationDpendency.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D84B6BB81F77837500F37660 /* Loder VIew */ = {
+			isa = PBXGroup;
+			children = (
+				D84B6BB91F77837500F37660 /* LoderView.h */,
+				D84B6BBA1F77837500F37660 /* LoderView.m */,
+				D84B6BBB1F77837500F37660 /* LoderView.xib */,
+			);
+			path = "Loder VIew";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -396,7 +401,7 @@
 				TargetAttributes = {
 					5FBBBADF1F72401B00C03813 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = K3B8TBR75V;
+						DevelopmentTeam = H7RFM2VSMC;
 						ProvisioningStyle = Automatic;
 					};
 					5FBBBAFB1F72401C00C03813 = {
@@ -431,10 +436,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				5FBBBB1B1F72720800C03813 /* LoginViewController.xib in Resources */,
+				D84B6BBF1F78452700F37660 /* NewView.xib in Resources */,
 				5F1E9B3B1F763C73009FECDD /* UserSelectViewController.xib in Resources */,
 				5FBBBAF61F72401B00C03813 /* LaunchScreen.storyboard in Resources */,
 				5F1E9B571F76A48E009FECDD /* RegisterCompleteViewController.xib in Resources */,
 				5FBBBAF31F72401B00C03813 /* Assets.xcassets in Resources */,
+				D84B6BBD1F77837500F37660 /* LoderView.xib in Resources */,
 				5F1E9B311F763C49009FECDD /* SplashScreenViewController.xib in Resources */,
 				5F1E9B5E1F76AAB4009FECDD /* DependantDetailTableViewCell.xib in Resources */,
 				5FBBBAEE1F72401B00C03813 /* Main.storyboard in Resources */,
@@ -483,7 +490,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		5A1300C582EA6F262BF4A9CA /* [CP] Copy Pods Resources */ = {
@@ -546,7 +553,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -558,16 +565,19 @@
 			files = (
 				5FBBBB1A1F72720800C03813 /* LoginViewController.m in Sources */,
 				5F1E9B561F76A48E009FECDD /* RegisterCompleteViewController.m in Sources */,
+				D84B6BB71F777D2C00F37660 /* WebServicesCall.m in Sources */,
 				5F1E9B351F763C60009FECDD /* RegisterViewController.m in Sources */,
 				5F1E9B4A1F76442C009FECDD /* CommonFunction.m in Sources */,
 				5F1E9B5D1F76AAB4009FECDD /* DependantDetailTableViewCell.m in Sources */,
 				5FBBBAE81F72401B00C03813 /* AppDelegate.m in Sources */,
+				D84B6BBC1F77837500F37660 /* LoderView.m in Sources */,
 				5F1E9B4E1F764568009FECDD /* CustomButton.m in Sources */,
 				5F1E9B301F763C49009FECDD /* SplashScreenViewController.m in Sources */,
 				5FBBBAF11F72401B00C03813 /* TatabApp.xcdatamodeld in Sources */,
 				5F1E9B3A1F763C73009FECDD /* UserSelectViewController.m in Sources */,
 				5FBBBAE51F72401B00C03813 /* main.m in Sources */,
 				5F1E9B4B1F76442C009FECDD /* CustomTextField.m in Sources */,
+				9C4C5ECE1F792725003D84BD /* RegistrationDpendency.m in Sources */,
 				5F1E9B521F76482D009FECDD /* Reachability.m in Sources */,
 				5F1E9B3F1F763C85009FECDD /* HomeViewController.m in Sources */,
 			);
@@ -704,7 +714,7 @@
 			baseConfigurationReference = EC3D829D93651C6DE55E17FC /* Pods-TatabApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = K3B8TBR75V;
+				DEVELOPMENT_TEAM = H7RFM2VSMC;
 				GCC_PREFIX_HEADER = Tatabapp/PrefixHeader.pch;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -712,7 +722,7 @@
 				);
 				INFOPLIST_FILE = TatabApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.assusoft.SSCreative;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ulab.SSCreative;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -722,7 +732,7 @@
 			baseConfigurationReference = BBB844014A999876E3EEA5CD /* Pods-TatabApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = K3B8TBR75V;
+				DEVELOPMENT_TEAM = H7RFM2VSMC;
 				GCC_PREFIX_HEADER = Tatabapp/PrefixHeader.pch;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -730,7 +740,7 @@
 				);
 				INFOPLIST_FILE = TatabApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.assusoft.SSCreative;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ulab.SSCreative;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
