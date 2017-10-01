@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Lato_Reg.ttf">
+            <string>Lato-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoderView">
+            <connections>
+                <outlet property="imgView" destination="q4h-zu-2Ni" id="Uus-Vj-YtK"/>
+                <outlet property="lbl_title" destination="h9Y-6O-lwo" id="Rj2-Ft-HK9"/>
+                <outlet property="view" destination="iN0-l3-epB" id="gmr-yg-htj"/>
+                <outlet property="whiteView" destination="bpL-Lv-yf0" id="H6n-Fi-WHg"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="LoderView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bpL-Lv-yf0">
+                    <rect key="frame" x="127" y="278.5" width="120" height="110"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="preloader" translatesAutoresizingMaskIntoConstraints="NO" id="q4h-zu-2Ni">
+                            <rect key="frame" x="39" y="19" width="42" height="42"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="42" id="6rk-8O-4qx"/>
+                                <constraint firstAttribute="width" constant="42" id="Fls-ML-wdy"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="   " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h9Y-6O-lwo">
+                            <rect key="frame" x="8" y="69" width="104" height="17"/>
+                            <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="14"/>
+                            <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="120" id="0o2-LG-nKh"/>
+                        <constraint firstAttribute="height" constant="110" id="1n0-SP-XFW"/>
+                        <constraint firstItem="q4h-zu-2Ni" firstAttribute="centerX" secondItem="bpL-Lv-yf0" secondAttribute="centerX" id="2fm-Cf-jtt"/>
+                        <constraint firstItem="q4h-zu-2Ni" firstAttribute="centerY" secondItem="bpL-Lv-yf0" secondAttribute="centerY" constant="-15" id="Z7z-8o-yK0"/>
+                        <constraint firstItem="h9Y-6O-lwo" firstAttribute="leading" secondItem="bpL-Lv-yf0" secondAttribute="leading" constant="8" id="h3O-j0-wEg"/>
+                        <constraint firstAttribute="trailing" secondItem="h9Y-6O-lwo" secondAttribute="trailing" constant="8" id="m2o-Pl-mBz"/>
+                        <constraint firstItem="h9Y-6O-lwo" firstAttribute="top" secondItem="q4h-zu-2Ni" secondAttribute="bottom" constant="8" id="u6v-CZ-mGt"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.6965002111486488" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="bpL-Lv-yf0" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="khB-s0-5on"/>
+                <constraint firstItem="bpL-Lv-yf0" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="p8X-0C-zH3"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-292.5" y="-189.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="preloader" width="42" height="42"/>
+    </resources>
+</document>
